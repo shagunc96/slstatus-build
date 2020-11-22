@@ -66,9 +66,8 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function     format          argument */
-	// { vol_perc	    , "%s, "    ,   ""    },
 	{ netspeed_rx   , "%s, "    ,   "wlp2s0"    },
-    { netspeed_tx   , "%s | "   ,   "wlp2s0"    },
+    { netspeed_tx   , "%s | "   	,   "wlp2s0"    },
 	{ battery_perc  , "%s%%"    ,   "BAT0"      },
 	{ battery_state , "%s | " 	,   "BAT0"      },
 	{ datetime      , "%s"      ,   "%F %T"     },
